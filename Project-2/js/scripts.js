@@ -46,7 +46,7 @@ $(function() {
     dateEl.textContent = getTodaysDate();
 
     function initPosts() {
-        for (let i = 0; i < data.length; i++) {
+        for (let i = 0; i<data.length; i++) {
             //Creating Elements
             var postId = 'post-' + data[i].id,
                 $post = $('<section class="post"></section>'),
